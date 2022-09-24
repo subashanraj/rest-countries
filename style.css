@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.card-header {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px 0 5px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 500px;
+    background-image: linear-gradient(to right, #e3ae95, #a1976f, #637b61, #365c57, #203b44);
+    margin: 10px;
+}
+
+.btn {
+    margin-left: 80px;
+    border: 1px solid white;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+img {
+    padding: 15px;
+    border: 1px solid black;
+}
